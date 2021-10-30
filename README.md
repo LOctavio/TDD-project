@@ -1,65 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TDD project
 
-> One paragraph statement about the project.
+> This is a project built using test-driven development
 
-![screenshot](./app_screenshot.png)
+I built the folowing methods using TDD:
 
-Additional description about the project and its features.
+- A method called factorial that takes one argument, an integer N, and returns the factorial for that number.
+- A method called reverse that takes one argument, a string word, and returns word reversed.
+- a method called fizzbuzz that takes one argument, an integer N, and returns a string. The returned string is constructed following these rules:
+  - When N is divisible by 3, return "fizz".
+  - When N is divisible by 5, return "buzz".
+  - When N is divisible by 3 and 5, return "fizzbuzz".
+  - Any other case, return N as a string.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+- ruby >= 3.0.1
 
 ### Install
 
-### Usage
+- Clone the project using 'git clone https://github.com/LOctavio/TDD-project.git'
 
 ### Run tests
 
-### Deployment
-
+- Use the terminal to open the project
+- run rspecc to check tests
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Luis Octavio Ramirez Cruz**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [LOctavio](https://github.com/LOctavio)
+- Twitter: [@Octavio_ram431](https://twitter.com/Octavio_ram431)
+- LinkedIn: [Luis Octavio Ramirez Cruz](https://www.linkedin.com/in/luis-octavio-ramirez-cruz/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/LOctavio/TDD-project/issues).
 
 ## Show your support
 
