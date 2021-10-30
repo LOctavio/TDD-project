@@ -23,19 +23,19 @@ describe Solver do
   end
   context 'Testing the reverse method' do
     it 'if the argumen is abcd the result is dcba' do
-      expect(@solver.reverse(abcd)).to eq(dcba)
+      expect(@solver.reverse('abcd')).to eq('dcba')
     end
 
     it 'if the argumen is luis the result is siul' do
-      expect(@solver.reverse(luis)).to eq(siul)
+      expect(@solver.reverse('luis')).to eq('siul')
     end
 
     it 'if the argumen is octavio the result is oivatco' do
-      expect(@solver.reverse(octavio)).to eq(oivatco)
+      expect(@solver.reverse('octavio')).to eq('oivatco')
     end
 
     it 'if the argumen is hello the result is hello' do
-      expect(@solver.reverse(octavio)).to eq(oivatco)
+      expect(@solver.reverse('octavio')).to eq('oivatco')
     end
   end
   context 'Testing the fizzbuzz method' do
