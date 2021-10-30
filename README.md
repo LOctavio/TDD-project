@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 - Use the terminal to open the project
-- tun rspecc to check tests
+- run rspecc to check tests
 
 
 ## Authors
