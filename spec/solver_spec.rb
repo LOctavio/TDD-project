@@ -40,19 +40,19 @@ describe Solver do
   end
   context 'Testing the fizzbuzz method' do
     it 'if the argumen is 6 the result is fizz' do
-      expect(@solver.fizzbuz(6)).to eq('fizz')
+      expect(@solver.fizzbuzz(6)).to eq('fizz')
     end
 
     it 'if the argumen is 10 the result is buzz' do
-      expect(@solver.fizzbuz(10)).to eq('buzz')
+      expect(@solver.fizzbuzz(10)).to eq('buzz')
     end
 
     it 'if the argumen is 30 the result is fizzbuzz' do
-      expect(@solver.fizzbuz(30)).to eq('fizzbuzz')
+      expect(@solver.fizzbuzz(30)).to eq('fizzbuzz')
     end
 
     it 'if the argumen is 7 the result is 7' do
-      expect(@solver.fizzbuz(7)).to eq(7)
+      expect(@solver.fizzbuzz(7)).to eq(7)
     end
   end
 end
